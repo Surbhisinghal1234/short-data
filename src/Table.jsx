@@ -64,7 +64,7 @@ function Table() {
             id="search"
             type="text"
             value={type}
-            placeholder="Search"
+            placeholder="Search..."
             onChange={(e) => {
               setType(e.target.value);
             }}
